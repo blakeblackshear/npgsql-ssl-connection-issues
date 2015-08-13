@@ -19,6 +19,7 @@ avg_time=$(curl -s 127.0.0.1:9832/times\?format=json)
 echo -e "\033[32m ===> Npgsql $avg_time ms\033[0m"
 
 kill $mono_pid
+sleep 10
 
 echo -e "\033[32m ===> Starting non-SSL testing\033[0m"
 mono /home/vagrant/sync/ssl-begintransacton/bin/Debug/ssl-begintransacton.exe disabled > no-ssl.log &
