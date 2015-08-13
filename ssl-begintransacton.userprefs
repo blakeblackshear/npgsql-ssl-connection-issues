@@ -1,9 +1,15 @@
 ﻿<Properties StartupItem="ssl-begintransacton/ssl-begintransacton.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ssl-begintransacton/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ssl-begintransacton/QueryService.cs">
     <Files>
-      <File FileName="ssl-begintransacton/Program.cs" Line="13" Column="10" />
-      <File FileName="ssl-begintransacton/AppHost.cs" Line="1" Column="1" />
+      <File FileName="ssl-begintransacton/Program.cs" Line="34" Column="1" />
+      <File FileName="ssl-begintransacton/AppHost.cs" Line="46" Column="5" />
+      <File FileName="ssl-begintransacton/ItemMap.cs" Line="1" Column="1" />
+      <File FileName="ssl-begintransacton/Item.cs" Line="1" Column="1" />
+      <File FileName="ssl-begintransacton/QueryService.cs" Line="47" Column="36" />
+      <File FileName="ssl-begintransacton/QueryMessage.cs" Line="17" Column="21" />
+      <File FileName="ssl-begintransacton/app.config" Line="49" Column="27" />
+      <File FileName="ssl-begintransacton/Properties/AssemblyInfo.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

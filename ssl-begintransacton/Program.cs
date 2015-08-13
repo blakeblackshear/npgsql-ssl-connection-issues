@@ -12,8 +12,7 @@ namespace sslbegintransacton
   {
     public static void Main (string[] args)
     {
-      IList<long> times = new List<long>();
-      new AppHost(times, args.Length == 0).Init().Start("http://*:9832/");
+      new AppHost(args.Length == 0).Init().Start("http://*:9832/");
       "ServiceStack is listening".Print();
       UnixSignal [] signals = new UnixSignal[] { 
         new UnixSignal(Signum.SIGINT), 
@@ -30,7 +29,6 @@ namespace sslbegintransacton
           if (signals[id].IsSet) exit = true;
         }
       }
-      "Exiting... {0}".Print(times.Average());
     }
   }
 }

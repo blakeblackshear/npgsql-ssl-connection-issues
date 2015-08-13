@@ -39,10 +39,11 @@ Vagrant.configure(2) do |config|
     sudo cp /home/vagrant/sync/configs/mono_project.repo /etc/yum.repos.d/mono_project.repo
     sudo yum install -y mono-complete-4.0.1-4
 
+    xbuild /home/vagrant/sync/ssl-begintransacton.sln
   SHELL
 end
 
     # xbuild /home/vagrant/sync/ssl-begintransacton.sln
-    # mono /home/vagrant/sync/ssl-begintransacton/bin/Debug/ssl-begintransacton.exe \&
+    # mono /home/vagrant/sync/ssl-begintransacton/bin/Debug/ssl-begintransacton.exe > debug.log &
     # sleep 10
-    # ab -n 1000 -c 100 http://127.0.0.1:9832/query
+    # ab -n 500 -c 100 http://127.0.0.1:9832/query
