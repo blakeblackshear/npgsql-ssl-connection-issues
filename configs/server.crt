@@ -1,0 +1,81 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 12276792602441544118 (0xaa5fedd3a1abf1b6)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, ST=Tennessee, L=Franklin, O=NextGxDx, OU=IT, CN=postgresql.db/emailAddress=eng@nextgxdx.com
+        Validity
+            Not Before: Aug 12 22:25:53 2015 GMT
+            Not After : Sep 11 22:25:53 2015 GMT
+        Subject: C=US, ST=Tennessee, L=Franklin, O=NextGxDx, OU=IT, CN=postgresql.db/emailAddress=eng@nextgxdx.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:b3:1a:6c:78:16:a6:97:d0:2b:34:c7:e7:b2:c5:
+                    62:78:e3:c7:28:35:d2:55:d8:1f:da:f6:42:18:1c:
+                    6d:f4:fb:14:18:83:e8:9d:0e:4b:ab:4b:ed:20:4f:
+                    be:82:f1:21:6c:65:42:1b:02:fc:5d:26:f1:2a:7a:
+                    15:4f:94:77:2b:03:21:9b:64:bc:42:07:22:a5:3a:
+                    15:ab:fd:c6:01:3e:3d:7c:33:0a:ce:fe:e3:a9:94:
+                    10:91:d2:84:cb:ab:b6:de:e5:e6:cb:87:eb:44:af:
+                    7f:89:e1:60:fc:6a:25:38:9e:be:c0:4c:d1:7c:39:
+                    33:dd:f2:26:35:41:ab:26:16:74:f7:85:8e:d7:81:
+                    1a:09:f2:b1:8e:42:c3:20:74:f3:58:e2:71:7e:60:
+                    d2:3a:a4:52:22:d3:36:dc:d0:78:f2:7d:52:33:ec:
+                    c2:ca:f7:8a:92:13:73:29:99:f0:42:ba:af:61:a8:
+                    06:2e:20:03:5f:59:80:45:13:cf:1b:b8:e9:03:f2:
+                    00:d9:81:97:26:8f:56:eb:64:34:21:4f:af:3d:de:
+                    6c:e2:f2:69:7b:f9:ec:07:09:1b:c1:45:00:7f:95:
+                    3e:d1:68:8f:f1:4f:cc:38:1c:a3:42:80:08:3f:46:
+                    15:3a:85:b1:b4:5a:7d:98:b4:36:72:2c:d4:41:72:
+                    fb:5b
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier:
+                1F:50:D7:0E:D8:F8:39:3B:45:8D:8D:F0:70:CF:1C:A3:17:A6:0F:56
+            X509v3 Authority Key Identifier:
+                keyid:1F:50:D7:0E:D8:F8:39:3B:45:8D:8D:F0:70:CF:1C:A3:17:A6:0F:56
+
+            X509v3 Basic Constraints:
+                CA:TRUE
+    Signature Algorithm: sha256WithRSAEncryption
+         43:07:21:45:74:d6:ad:84:c3:fb:1f:f0:a0:48:38:94:95:f7:
+         ec:df:93:d7:9f:96:82:db:74:1c:d3:f2:3d:d2:b5:93:da:e7:
+         70:14:49:fb:0f:8f:56:38:f3:57:40:56:5f:06:b8:0e:3f:fc:
+         25:72:73:36:89:18:01:cb:c2:cc:7d:b4:34:3e:ad:78:f5:d0:
+         b6:d3:8a:36:42:8c:88:c4:e8:ac:a1:95:68:2a:51:9b:85:95:
+         d9:43:6b:08:e3:30:5f:46:db:5f:cb:43:8e:ef:7c:d6:c9:a6:
+         55:cd:19:86:1d:b8:e4:78:d3:e4:61:14:d3:bb:7c:07:cd:a0:
+         1f:c6:a5:62:d1:12:17:ba:53:82:43:09:93:a8:2f:a6:5c:06:
+         5f:e8:60:e6:e8:d6:27:16:02:bf:64:41:f3:21:7e:f9:45:14:
+         50:70:03:26:d7:a7:76:88:e6:9f:bb:90:3e:6d:b0:c9:a6:b4:
+         05:ae:91:10:51:37:31:3e:2f:43:9e:3c:c2:18:2e:ef:a6:39:
+         0a:cf:54:8e:40:a9:a8:e2:a8:05:f9:e3:b3:42:b9:28:0c:ba:
+         ab:2f:f4:39:2e:ce:6f:69:4d:24:38:2f:6b:06:c0:9a:5a:88:
+         db:3d:ed:f0:43:1a:38:7d:75:1a:1e:9b:45:96:fd:8a:a0:55:
+         d3:b6:1b:44
+-----BEGIN CERTIFICATE-----
+MIID7zCCAtegAwIBAgIJAKpf7dOhq/G2MA0GCSqGSIb3DQEBCwUAMIGNMQswCQYD
+VQQGEwJVUzESMBAGA1UECAwJVGVubmVzc2VlMREwDwYDVQQHDAhGcmFua2xpbjER
+MA8GA1UECgwITmV4dEd4RHgxCzAJBgNVBAsMAklUMRYwFAYDVQQDDA1wb3N0Z3Jl
+c3FsLmRiMR8wHQYJKoZIhvcNAQkBFhBlbmdAbmV4dGd4ZHguY29tMB4XDTE1MDgx
+MjIyMjU1M1oXDTE1MDkxMTIyMjU1M1owgY0xCzAJBgNVBAYTAlVTMRIwEAYDVQQI
+DAlUZW5uZXNzZWUxETAPBgNVBAcMCEZyYW5rbGluMREwDwYDVQQKDAhOZXh0R3hE
+eDELMAkGA1UECwwCSVQxFjAUBgNVBAMMDXBvc3RncmVzcWwuZGIxHzAdBgkqhkiG
+9w0BCQEWEGVuZ0BuZXh0Z3hkeC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQCzGmx4FqaX0Cs0x+eyxWJ448coNdJV2B/a9kIYHG30+xQYg+idDkur
+S+0gT76C8SFsZUIbAvxdJvEqehVPlHcrAyGbZLxCByKlOhWr/cYBPj18MwrO/uOp
+lBCR0oTLq7be5ebLh+tEr3+J4WD8aiU4nr7ATNF8OTPd8iY1QasmFnT3hY7XgRoJ
+8rGOQsMgdPNY4nF+YNI6pFIi0zbc0HjyfVIz7MLK94qSE3MpmfBCuq9hqAYuIANf
+WYBFE88buOkD8gDZgZcmj1brZDQhT6893mzi8ml7+ewHCRvBRQB/lT7RaI/xT8w4
+HKNCgAg/RhU6hbG0Wn2YtDZyLNRBcvtbAgMBAAGjUDBOMB0GA1UdDgQWBBQfUNcO
+2Pg5O0WNjfBwzxyjF6YPVjAfBgNVHSMEGDAWgBQfUNcO2Pg5O0WNjfBwzxyjF6YP
+VjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBDByFFdNathMP7H/Cg
+SDiUlffs35PXn5aC23Qc0/I90rWT2udwFEn7D49WOPNXQFZfBrgOP/wlcnM2iRgB
+y8LMfbQ0Pq149dC204o2QoyIxOisoZVoKlGbhZXZQ2sI4zBfRttfy0OO73zWyaZV
+zRmGHbjkeNPkYRTTu3wHzaAfxqVi0RIXulOCQwmTqC+mXAZf6GDm6NYnFgK/ZEHz
+IX75RRRQcAMm16d2iOafu5A+bbDJprQFrpEQUTcxPi9DnjzCGC7vpjkKz1SOQKmo
+4qgF+eOzQrkoDLqrL/Q5Ls5vaU0kOC9rBsCaWojbPe3wQxo4fXUaHptFlv2KoFXT
+thtE
+-----END CERTIFICATE-----
