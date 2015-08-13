@@ -43,8 +43,3 @@ Vagrant.configure(2) do |config|
     xbuild /home/vagrant/sync/ssl-begintransacton.sln
   SHELL
 end
-
-    # xbuild /home/vagrant/sync/ssl-begintransacton.sln
-    # mono /home/vagrant/sync/ssl-begintransacton/bin/Debug/ssl-begintransacton.exe > debug.log &
-    # sleep 10
-    # ab -n 500 -c 100 http://127.0.0.1:9832/query

@@ -1,7 +1,7 @@
 # Connecting to PostgreSQL with SSL under load
 
 I am seeing issues with Npgsql (2.2.5) when connecting over SSL when there is
-a reasonable amount of concurrency.
+a reasonable amount of concurrency and only 1 cpu core available.
 
 In order to reproduce, I am using ServiceStack to create http endpoints for
 NHibernate, OrmLite, and Npgsql. Each of these endpoints just open a connection
