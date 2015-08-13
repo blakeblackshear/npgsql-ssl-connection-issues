@@ -37,8 +37,9 @@ Vagrant.configure(2) do |config|
     sudo yum install -y httpd-tools
     sudo rpm --import /home/vagrant/sync/configs/mono-gpg-key
     sudo cp /home/vagrant/sync/configs/mono_project.repo /etc/yum.repos.d/mono_project.repo
-    sudo yum install -y mono-complete-4.0.1-4
+    sudo yum install -y mono-complete-4.0.1-4 nuget
 
+    nuget restore /home/vagrant/sync/ssl-begintransacton.sln
     xbuild /home/vagrant/sync/ssl-begintransacton.sln
   SHELL
 end
